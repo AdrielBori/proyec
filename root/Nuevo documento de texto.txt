@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            width: 100%;
+            height: 80px;
+            background-color:blanchedalmond ;
+            justify-content: space-between;
+        }
+        .logo  {
+            width: 40%;
+            height: 80px;
+            
+        }
+        li{
+            display: inline;
+            padding: 20px;
+           
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">ini</a></li>
+                <li><a href="#">con</a></li>
+                <li><a href="#">pag</a></li>
+                <li><a href="#">casa</a></li>
+            </ul>
+            
+            <div class="social-btns">
+                <a class="btn facebook" href="#"><i class="fa fa-facebook">f</i></a>
+                <a class="btn twitter" href="#"><i class="fa fa-twitter">t</i></a>
+                <a class="btn instagram" href="#"><i class="fa fa-instagram">i</i></a>
+                <a class="btn youtube" href="#"><i class="fa fa-youtube">y</i></a>
+            </div>
+
+
+
+        </nav>
+
+    </header>
+
+
+
+
+    
+</body>
+</html>
