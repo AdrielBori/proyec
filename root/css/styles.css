@@ -172,6 +172,22 @@ a.menu__lista-item:hover{
     display: flex;
     font-size: 30px;
 }
+.fa-map-marker-alt{
+    color:#79102a;
+    background-color:#ffffff ;
+    padding-right: 10px;
+    border-radius: 5px;
+    transition: ease-in 0.;
+}
+.fa-map-marker-alt:hover{
+    color:rgb(51, 28, 28);
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: ease-in 0.6s;
+}
+
+
 .fa-facebook{
     color:#105079;
     background-color:#ffffff ;
