@@ -35,7 +35,7 @@ nav{
 }
 .main__index{
     grid-area: main;
-    
+        
 }
 .pie{
     height: 60px;
@@ -141,7 +141,7 @@ a.menu__lista-item:hover{
 .lfoot{
     position: absolute;
     bottom: 0;
-    width: 150px;
+    width: 100px;
     
 }
 .card__copyright{
@@ -179,15 +179,6 @@ a.menu__lista-item:hover{
     border-radius: 5px;
     transition: ease-in 0.;
 }
-.fa-map-marker-alt:hover{
-    color:rgb(51, 28, 28);
-    padding-right: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    transition: ease-in 0.6s;
-}
-
-
 .fa-facebook{
     color:#105079;
     background-color:#ffffff ;
@@ -359,7 +350,6 @@ iframe{
     margin: 20px;
     font-family: hello;
     font-size: 25px;
-    background-color: rgb(255, 255, 255, 0.5);
     text-align: center;
 }
 .menu__lista-item:hover{
@@ -409,11 +399,11 @@ iframe{
         top: 100px;
         left: -100%;
         width: 100vw;
-        height: calc(100vh - 100px);
+        height: 100vw;
         display: flex;
         flex-direction: column;
         transition: ease-in 0.3s;
-}
+    }
     li{
         display: block;
         padding: 5px;
@@ -425,6 +415,8 @@ iframe{
     #check:checked ~ nav{
         left: 0;
         position:fixed;
+        z-index: 50;
+        
         
     }
     .main__galeria{
@@ -436,14 +428,14 @@ iframe{
     .main__nosotros{
         background-image: none;
         background-image: linear-gradient(to top, #85534d ,white);
+        background-attachment: none;
         height: auto;
         display: flex;
         flex-direction: column;
     }
     .nosotros__text{
         font-size: 18px;
-
-    }
+}
     .card__servicio{
         flex-direction: column;
     }
@@ -452,7 +444,8 @@ iframe{
     }
     .IS{
         width: 60VW;
-
     }    
-
+    .lfoot{
+        display: none;
+    }
 }
